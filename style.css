@@ -1,0 +1,102 @@
+
+
+html{
+	height: 100%;
+}
+
+body{
+	background-color: #192a56;
+	color:#2d2d2d;
+	font-family: 'Poppins', Arial, sans-serif;
+	height: 100%;
+}
+
+#site-wrapper{
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#card{
+	background-image: url(images/texturetastic_gray.png);
+	padding: 3em;
+	width:600px;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: auto;
+	border-radius: 1em;
+	box-shadow: 12px 12px 39px -19px rgba(0,0,0,1);
+	-webkit-box-shadow: 12px 12px 39px -19px rgba(0,0,0,1);
+	-moz-box-shadow: 12px 12px 39px -19px rgba(0,0,0,1);
+
+}
+
+/* Text Styling */
+p{
+	font-size: 16px;
+	line-height: 1.5;
+}
+h3{
+	font-size: 28px;
+	color:#192a56;
+	margin:0;
+	padding: 0;
+}
+h2{
+	font-size: 33px;
+	color:#192a56;
+	margin:0;
+	padding: 0;
+}
+h1{
+	font-size: 40px;
+	color:#192a56;
+	margin:0;
+	padding: 0;
+
+}
+
+/*Links*/
+a{
+	text-decoration: none;
+	color:#192a56;
+}
+a:hover{
+	text-decoration: underline;
+	color: #c23616;
+}
+
+/*List*/
+.no-style{
+	list-style: square;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+/*Positioning*/
+.image-block{
+display: inline-block;
+margin-right: 1em;
+border-radius: 1em;
+}
+.basicinfo-block{
+display: inline-block;
+vertical-align: top;
+}
+
+.image-block img{
+	width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
